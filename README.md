@@ -1,10 +1,10 @@
 # Oyster Genomics landing page
 
-Responsive static landing page based on the public content of oystergenomics.com.
+Responsive, hero-only landing page for Oyster Genomics.
 
 ## Files
 
-- `index.html`: page, styles, interactive Switchpoint steps, and mobile navigation.
+- `index.html`: hero, styles, and decorative floating-particle animation.
 - `favicon.svg`: site icon.
 - `netlify.toml`: publishes the repository root with no build step or dependencies.
 
@@ -24,4 +24,4 @@ Use the existing [oyster-genomics-landing Netlify project](https://app.netlify.c
 
 With the repository linked in Netlify, pushes to `main` publish automatically through continuous deployment. Check the project's Deploys page to confirm each release.
 
-Contact links open an email client addressed to hello@oystergenomics.com. Fonts are loaded from Google Fonts, with system fallbacks.
+The particle animation respects reduced-motion preferences. Fonts are loaded from Google Fonts, with system fallbacks.
