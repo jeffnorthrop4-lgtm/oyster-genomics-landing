@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Oyster Genomics — Seafood, by design.</title>
-<meta name="description" content="The seed company for ocean farms. Oyster Genomics develops parent lines for licensed hatcheries, starting with Eastern oysters on the US East Coast and Gulf.">
+<title>Oyster Genomics — The seed company for ocean protein.</title>
+<meta name="description" content="The seed company for ocean protein. Oyster Genomics develops parent lines for licensed hatcheries, starting with Eastern oysters on the US East Coast and Gulf.">
 <meta name="theme-color" content="#eaf0e4">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -52,6 +52,10 @@
 .contact-intro{font-size:17px;line-height:1.7;max-width:580px;color:var(--muted);margin:25px 0 0}
 @media(max-width:1100px){.delivery-copy{margin-left:0;gap:40px}.seed-flow strong{font-size:18px}}
 @media(max-width:760px){.hero-desc{font-size:25px;max-width:330px}.seed-flow{gap:12px}.seed-flow strong{font-size:18px}.seed-flow span{font-size:9px}.delivery-copy{grid-template-columns:1fr;gap:23px}.focus-grid{grid-template-columns:1fr;gap:23px;margin-top:35px}.focus-grid dd{font-size:22px;margin-top:6px}.regulation{grid-template-columns:1fr;gap:25px;padding:60px 0}.regulation p{font-size:15px}.contact-intro{font-size:16px}.outcome{gap:32px}}
+
+/* Keep the longer hero headline balanced beside the floating dots. */
+.hero h1{font-size:clamp(48px,6.2vw,100px);line-height:1.02;letter-spacing:-.065em;margin-bottom:38px}
+@media(max-width:760px){.hero h1{font-size:clamp(40px,10.6vw,74px);margin-bottom:32px}}
 </style>
 </head>
 <body>
@@ -72,8 +76,7 @@
       <canvas id="hero-canvas" aria-hidden="true"></canvas>
       <div class="hero-copy">
         <div class="eyebrow"><span class="dot"></span> Parents. Hatcheries. Seed.</div>
-        <h1 id="hero-title">Seafood,<br>by <em>design.</em></h1>
-        <p class="hero-desc">The seed company for ocean farms.</p>
+        <h1 id="hero-title">The seed<br>company for<br><em>ocean protein.</em></h1>
         <a class="button" href="#purpose">Meet the business <span class="arrow" aria-hidden="true">↗</span></a>
       </div>
     </section>
